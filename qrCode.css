@@ -43,3 +43,23 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+@media (max-width:1000px) {
+  main{
+    width:50%;
+  }
+  h2, p{
+    padding: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  main{
+    width:90%;
+  }
+  h2, p{
+    padding: 0px;
+  }
+}
+
